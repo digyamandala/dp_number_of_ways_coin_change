@@ -2,7 +2,7 @@
 Generate number of ways to change coin which value is 'x'
 
 <img src="https://latex.codecogs.com/gif.latex?f(0)&space;=&space;1" title="f(0) = 1" />
-<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sum&space;(x&space;-&space;coin_i)" title="f(x) = \sum (x - coin_i)" />
+<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sum&space;f(x-coin_i)" title="f(x) = \sum f(x-coin_i)" />
 
 where
 <img src="https://latex.codecogs.com/gif.latex?(x&space;-&space;coin_i)\geq&space;0" title="(x - coin_i)\geq 0" />
