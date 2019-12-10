@@ -1,4 +1,4 @@
-# number_of_ways_coin_change
+# dp_number_of_ways_coin_change
 Generate number of ways to change coin which value is 'x'
 
 <img src="https://latex.codecogs.com/gif.latex?f(0)&space;=&space;1" title="f(0) = 1" />
