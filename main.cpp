@@ -3,6 +3,14 @@
 
 using namespace std;
 
+/*
+  CALCULATE MINIMUM NUMBER WAYS TO CHANGE COIN WHICH VALUE IS 'x'
+  USING DYNAMIC PROGRAMMING
+  Formula to find minimum coins to change 'x':
+  f(x) =  f(x-coin(1)) + f(x-coin(2)) + ... + f(x-coin(n))
+*/
+
+
 vector<int> generateNumberOfWays(int* coins, int coin_length, int val){
 
   vector<int> ways(1000);
